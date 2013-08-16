@@ -1,9 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='django-failedloginblocker',
     version='1.0.0',
-    packages=find_packages(),
+    packages=['failedloginblocker'],
     package_data={
         '': ['*.html'],
     },
