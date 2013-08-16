@@ -7,7 +7,7 @@ setup(
     package_data={
         '': ['*.html'],
     },
-    license=open('LICENSE').read(),
+    license='BSD (3-Clause) License',
     long_description=open('README').read(),
     maintainer='mySociety',
     maintainer_email='programmers@mysociety.org',
